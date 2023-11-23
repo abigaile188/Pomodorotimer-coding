@@ -1,0 +1,75 @@
+/* this is the code for the pomodoro timer */
+
+.container {
+    text-align: center;
+    font-size: 22px;
+    margin: auto;
+    max-width: 400px;
+    padding: 10px; /* Specify a padding value */
+    color: #d8bffe;
+    font-family: 'Courier New', monospace;
+    text-transform: uppercase;
+}
+
+.rocket {
+    text-align: center;
+    font-size: 100px;
+    color: #e5e8fd ;
+    padding: 10px 5px;
+}
+
+
+
+.button {
+    font-size: 50px;
+    text-align: center;
+}
+
+button:hover{
+    opacity: .5;
+    color: rgb(255, 255, 156);
+}
+
+#start{
+    text-align: center;
+    color: white;
+    background-color: #606bbe;
+    padding: 20px 50px;
+    margin: 5px ;
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: opacity .3s ease-in-out;
+}
+
+#stop{
+    text-align: center;
+    color: white;
+    background-color: #606bbe;
+    padding: 20px 50px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: opacity .3s ease-in-out;
+}
+
+#reset{
+    text-align: center;
+    color: white;
+    background-color: #606bbe;
+    padding: 20px 125px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px; 
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: opacity .3s ease-in-out;
+}
+
+#timer {
+    font-size: 150px;
+    margin: 0%;
+}
